@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:elevation="15dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="#5e92ea">
+
+
+
+        <TextView
+            android:id="@+id/order_user_name"
+            android:layout_margin="10dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Kullanıcı Adı"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            ></TextView>
+
+        <TextView
+
+            android:id="@+id/order_phone_number"
+            android:layout_margin="10dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Telefon Numarası"
+            android:textAlignment="viewEnd"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            ></TextView>
+
+        <TextView
+
+            android:layout_marginTop="45dp"
+            android:id="@+id/order_total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toplam Tutar"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+
+            ></TextView>
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:id="@+id/order_address_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adres"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@id/order_total_price"
+
+            ></TextView>
+        <TextView
+            android:layout_marginTop="25dp"
+            android:id="@+id/order_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sipariş Tarihi"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@id/order_address_city"
+
+            ></TextView>
+        <Button
+            android:id="@+id/show_all_products_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order_date_time"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#385483"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:text="Sipariş Detaylarını Göster"
+            android:background="@drawable/buttons"></Button>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

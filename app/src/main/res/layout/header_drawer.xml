@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="#5e92f3"
+    android:orientation="vertical"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/profile"
+        android:layout_gravity="center"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/username"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/profile_image"
+
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-169dp"
+        android:layout_gravity="center"
+        android:paddingBottom="4dp"
+        android:text="Kullanıcı Adı"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>

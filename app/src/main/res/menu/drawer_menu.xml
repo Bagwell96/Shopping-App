@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:title="Favoriler"
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_baseline_favorite_24"
+
+            />
+        <item
+
+            android:id="@+id/nav_orders"
+            android:title="Siparişlerim"
+
+            android:icon="@drawable/ic_baseline_reorder_24"
+            />
+        <item
+
+            android:id="@+id/nav_category"
+            android:title="Kategoriler"
+            android:icon="@drawable/ic_baseline_category_24"
+            />
+        <item
+
+            android:id="@+id/nav_settings"
+            android:title="Ayarlar"
+            android:icon="@drawable/ic_baseline_settings_24"
+            />
+        <item
+
+            android:id="@+id/nav_logout"
+            android:title="Çıkış Yap"
+            android:icon="@drawable/ic_baseline_arrow_back_24"
+            />
+    </group>
+</menu>

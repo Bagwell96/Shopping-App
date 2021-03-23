@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/register_app_logo"
+
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/logo"></ImageView>
+
+    <EditText
+        android:id="@+id/register_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_app_logo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input"
+        android:hint="Kullanıcı Adı"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="#5e92f3"
+        android:textColorHint="#5e92f3"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+
+        ></EditText>
+
+    <EditText
+        android:id="@+id/register_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_username"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input"
+        android:hint="Mail Adresi"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textColor="#5e92f3"
+        android:textColorHint="#5e92f3"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+
+        ></EditText>
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_phone_number"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input"
+        android:hint="Parola"
+        android:padding="20dp"
+        android:textColor="#5e92f3"
+        android:textColorHint="#5e92f3"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+
+        ></EditText>
+
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/register_password"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:text="Kayıt Ol"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp"
+
+
+        ></Button>
+
+
+</RelativeLayout>
